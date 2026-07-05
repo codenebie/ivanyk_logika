@@ -1,0 +1,86 @@
+.body{
+    margin: 0%;
+    font-family: Arial,Sans-Serif;
+    color: antiquewhite;
+    background-color: blanchedalmond;
+}
+.navbar{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 14px 50px;
+background-color: black;
+color: antiquewhite;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.nav-menu a {
+   color: chocolate;  
+   text-decoration: solid;
+   margin-left: 30px;
+   transition: none;
+}
+h2{
+    text-align: center;
+    color: chocolate;
+}
+.aboutcafe{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 50px;
+}
+.rights{
+    text-align: center;
+    color: rgba(232, 211, 116, 0.96);
+}
+.hero-parallax{
+    height: 90vh;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fcozy-parisian-cafe-view-eiffel-tower-fresh-croissants-coffee-table-romantic-urban-scene-generative-ai-warm-paris-320533869.jpg&f=1&nofb=1&ipt=0c64f20fce06aa3c4dbf96f1e41b44a7a366e1182ad46773f63cdcc6f55df512");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
+.hero-title{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: antiquewhite;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.btn{
+    margin-top: 20px;
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: chocolate;
+    padding: 10px 20px;
+    border-radius: solid 50px chocolate;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 40%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    background-color: rgb(255, 195, 152);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+    color: rgba(0,0,0,0.3);;
+}
+.about{
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+footer{
+        display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 7px 25px;
+background-color: black;
+
+}
+
+
