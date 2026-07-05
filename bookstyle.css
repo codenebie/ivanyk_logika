@@ -1,0 +1,53 @@
+.body{
+    margin: 0%;
+    font-family: Arial,Sans-Serif;
+    color: antiquewhite;
+    background-color: blanchedalmond;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-radius: 50px;
+    background-color: #ddbba4;
+    border:  solid 50px #ddbba4;;
+}
+input, select, button{
+    padding: 10px;
+    font-size: 16;
+    border-radius: 35px;
+}
+button{
+    background-color: #663c21;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+button:hover{
+    opacity: 0.9;
+    box-shadow: 8px 8px 8px #331e11;
+}
+.navbar{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 14px 50px;
+background-color: black;
+color: antiquewhite;
+}
+
+.nav-menu a {
+   color: chocolate;  
+   text-decoration: solid;
+   margin-left: 30px;
+   transition: none;
+}
+footer{
+        display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 7px 25px;
+background-color: black;
+
+}
