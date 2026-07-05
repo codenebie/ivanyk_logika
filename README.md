@@ -1,3 +1,2 @@
 # ivanyk_logika
-A website made for logikaschool.com
-enjoy!
+A website made for logikaschool.com :3
