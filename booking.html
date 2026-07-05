@@ -1,0 +1,50 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bookstyle.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Paris Shenanigans</div>
+        <nav class="nav-menu" iid="navmenu">
+            <a href="index.html" clasclass="active">general</a>
+            <a href="menu.html">menu</a>
+            <a href="booking.html">book a table</a>
+        </nav>
+    </header>
+    <h2>Бронювання столика</h2>
+    
+    <form>
+        <label for="name">Ім'я</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="phone">Номер Телефону</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <label for="date">Дата</label>
+        <input type="date" id="date" name="date" required>
+        
+        <label for="time">Час</label>
+        <input type="time" id="time" name="time" required>
+      
+        <label for="guests">Кількість Гостей</label>
+        <select id="guests" name="guests" required>
+            <option>1</option> 
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5+</option>
+        </select>
+        <button type="submit">Забронювати</button>
+        
+        
+        
+    </form>
+    <footer>
+        <p class="rights">&copy; 2024 Paris Shenanigans. All rights reserved.</p>
+    </footer>
+</body>
+</html>
